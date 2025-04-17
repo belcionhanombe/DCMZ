@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .servicos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: rgba(5, 14, 20, 0.5);
+  }
+  
+  .servico {
+    background-color: rgba(238, 243, 243, 0.8);
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .servico:hover {
+    transform: translateY(-5px);
+  }
+  
+  .servico img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .servico h3 {
+    color: #004080;
+    margin: 15px 0 10px;
+  }
+  
+  .servico p {
+    color: #555;
+    font-size: 15px;
+  }
+  
+
+  /* Imagens na vertical */
+
+  .imagens-verticais {
+    display: flex;
+    flex-direction: column; /* padrão: vertical */
+    gap: 10px; /* espaço entre as imagens */
+  }
+  
+  .imagens-verticais img {
+    max-width: 25%;
+    height: auto;
+  }
+  
+  /* Em telas grandes, alinhar lado a lado */
+
+    .imagens-verticais {
+      flex-direction: row; /* lado a lado */
+      justify-content: center;
+      align-items: flex-start;
+    }
