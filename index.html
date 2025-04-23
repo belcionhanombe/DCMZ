@@ -13,7 +13,6 @@
     <header>
         <style>
             @media (max-width: 767px) {
-              .navbar-brand,
               .btn-orcamento {
                 display: none !important;
               }
@@ -44,15 +43,24 @@
             
             </style>
         <div class="container" style=" background-color: rgba(248, 249, 250) !important;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light nav1">
                 <div class="container-fluid d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between">
-                  <a class="navbar-brand" href="index.html">
-                    <img style="width: 30%;" src="imagens/DCMZlogo.png" alt="EBREA Logo">
-                  </a>
-              
-                  <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
+
+                        <div class="d-flex justify-content-between align-items-center w-100">
+                        <!-- Botão à esquerda -->
+                        <div>
+                            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <!-- Imagem à direita -->
+                        <div class="imagem1" class="ms-auto">
+                            <a  class="navbar-brand" href="index.html">
+                            <img style="width: 30%; text-align: right;" src="imagens/DCMZlogo.png" alt="EBREA Logo">
+                            </a>
+                        </div>
+                        </div>
                   <strong>
                     <div class="collapse navbar-collapse w-100 w-lg-auto" id="menuPrincipal">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -66,7 +74,31 @@
                   </strong>
                 </div>
               </nav>
+
+              <nav class="navbar navbar-expand-lg navbar-light bg-light nav2" >
+                <div class="container-fluid d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between">
+                  <a class="navbar-brand" href="index.html">
+                    <img style="width: 30%;" src="imagens/DCMZlogo.png" alt="EBREA Logo">
+                  </a>
               
+                  <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <strong>
+                    <div class="collapse navbar-collapse w-100 w-lg-auto" id="menuPrincipal">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" style="color: blue !important;"  href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projectos.html">Projectos</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="contacto.html">Contactos</a></li>
+                        </ul>
+                    </div>
+                </strong>
+
+                </div>
+              </nav>
+
           <!-- Botão de orçamento (oculto em telas pequenas via CSS) -->
           <a class="btn-orcamento" href="contacto.html">SOLICITE UM ORÇAMENTO</a>
         </div>
@@ -80,7 +112,7 @@
                 <br>
                 <p>
                     Energizando Projectos,
-                    conectando o futuro.
+                    Conectando o Futuro.
                 </p>
                 <br>
                 <a href="contacto.html" class="btn-saiba-mais">SAIBA MAIS</a>
@@ -89,10 +121,10 @@
         <section style="padding: 40px 20px; background-color: #f9f9f9;">
             <h3 style="color: #3b0099; text-align: center; margin-bottom: 20px;">DCMZ - Engenharia & Serviços</h3>
 
-            <p style="text-align:left; max-width: 100%; margin: 0 auto 40px; margin: 20px; color:black; font-size: 16px;">
+            <p style="text-align:justify; max-width: 100%; margin: 0 auto 40px; margin: 20px; color:black; font-size: 16px;">
                 <br>
-                Somos uma empresa Moçambicana sediada na província de Maputo, vocacionada em instalações Elétricas de Alta,  Média e Baixa Tensão, <br> <br>
-                Elaboração e Execução de Projetos, Consultoria, Manutenção de sistemas elétricos e eletrónicos, Projeto de Infra-estruturas de Telecomunicações.
+                Somos uma empresa Moçambicana sediada na província de Maputo, vocacionada em instalações Elétricas de Alta,  Média e Baixa Tensão,
+                Elaboração e Execução de Projectos, Consultoria, Manutenção de sistemas Elétricos e Eletrónicos, Projecto de Infra-estruturas de Telecomunicações.
              <br> 
             </p>
             <br>
@@ -173,6 +205,7 @@
                     <h3>Contacte-nos</h3>
                     <p><i class="fas fa-map-marker-alt"></i>Bairro Tsalala, Q.16, № 25 Matola - Maputo</p>
                     <p><i class="fas fa-phone"></i> +258 84 788 1688</p>
+                    <p><i class="fas fa-phone"></i> +258 87 211 0399</p> 
                     <p><i class="fas fa-envelope"></i> comercial@dcmzelectrics.co.mz</p>
                     <div class="social-icons">
                         <a style="color: blue; margin-right: 5px;" href="#"><i class="bi bi-whatsapp"></i></a>

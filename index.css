@@ -268,7 +268,17 @@ ul li a:hover {
 }
 
 /* Para dispositivos com largura máxima de 768px */
+
+@media  (min-width: 767px) {
+  .nav1{
+    display: none !important;
+  }
+}
 @media (max-width: 768px) {
+
+  .nav2{
+    display: none !important;
+  }
     .contact-box1 {
         text-align: center;
         display: flex;
@@ -288,6 +298,13 @@ ul li a:hover {
     }
 }
 
+.nav1 {
+  width: 100%;
+}
+
+.imagem1 {
+  text-align: right;
+} 
 
 .btn-orcamento:hover {
   color: black;
