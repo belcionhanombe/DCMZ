@@ -83,15 +83,18 @@
   
   @keyframes slideShow {
     0% {
+      background-image: url('imagens/DCMZlg.png');
+    }
+    30% {
       background-image: url('imagens/background2.jpg');
     }
-    25% {
+    40% {
       background-image: url('imagens/comunicacoes.jpg');
     }
-    50% {
+    60% {
       background-image: url('imagens/11.jpeg');
     }
-    75% {
+    80% {
       background-image: url('imagens/manutecao.jpg');
     }
     100% {
@@ -283,4 +286,9 @@ ul li a:hover {
     .contact-box1 .social-icons a {
         display: inline-block;
     }
+}
+
+
+.btn-orcamento:hover {
+  color: black;
 }
